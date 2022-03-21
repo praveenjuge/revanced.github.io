@@ -1,7 +1,10 @@
 {
   "devDependencies": {
+    "@material/elevation": "^13.0.0",
     "@playwright/test": "^1.20.0",
     "@smui/button": "^6.0.0-beta.15",
+    "@smui/tab": "^6.0.0-beta.15",
+    "@smui/tab-bar": "^6.0.0-beta.15",
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
     "@typescript-eslint/eslint-plugin": "^5.10.1",

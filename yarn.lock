@@ -578,6 +578,61 @@
     "@material/theme" "^13.0.0"
     tslib "^2.1.0"
 
+"@material/tab-bar@^13.0.0":
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/@material/tab-bar/-/tab-bar-13.0.0.tgz#e0ba597b507a5b62aac91837d96458dd250cee14"
+  integrity sha512-GLODDvwKiN867weT+WiSR/4Oum2hw0Ipl1vcJxtZeE6C3PmGWBE316j8a5DLYvf9bjIPLYLNLUzLU3QnJB6T5w==
+  dependencies:
+    "@material/animation" "^13.0.0"
+    "@material/base" "^13.0.0"
+    "@material/density" "^13.0.0"
+    "@material/elevation" "^13.0.0"
+    "@material/feature-targeting" "^13.0.0"
+    "@material/tab" "^13.0.0"
+    "@material/tab-indicator" "^13.0.0"
+    "@material/tab-scroller" "^13.0.0"
+    "@material/theme" "^13.0.0"
+    "@material/typography" "^13.0.0"
+    tslib "^2.1.0"
+
+"@material/tab-indicator@^13.0.0":
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/@material/tab-indicator/-/tab-indicator-13.0.0.tgz#e79d06b888ac8c625dabc6c9288eb3ced70adaa5"
+  integrity sha512-T6Q4zCdl374rQgNLrAIc8+sy8ax6fbNTZRb+oJgShzjVz4wH9OLk6LX1RREHEeWiZt69nTqeR4yU6/6xFX+Kjw==
+  dependencies:
+    "@material/animation" "^13.0.0"
+    "@material/base" "^13.0.0"
+    "@material/feature-targeting" "^13.0.0"
+    "@material/theme" "^13.0.0"
+    tslib "^2.1.0"
+
+"@material/tab-scroller@^13.0.0":
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/@material/tab-scroller/-/tab-scroller-13.0.0.tgz#0bbe9e77cebb3a0d6607e86216de69df2e7fddc7"
+  integrity sha512-SHdNXTLrNA47RbTNOQa67DbQjw0qrf1h0OuoESXHMU/B7QQvhAOqnHpU32/LdCP+gvc7EdZjolVQgk3WphDcQA==
+  dependencies:
+    "@material/animation" "^13.0.0"
+    "@material/base" "^13.0.0"
+    "@material/dom" "^13.0.0"
+    "@material/feature-targeting" "^13.0.0"
+    "@material/tab" "^13.0.0"
+    tslib "^2.1.0"
+
+"@material/tab@^13.0.0":
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/@material/tab/-/tab-13.0.0.tgz#3b616e1f1679977a943f8aba81c02746299a6028"
+  integrity sha512-7tziMFiyiFZner39h6ue6A6rfJhz8LDyeVPYfdAMe8ZO8GT+PczDr5yuectamR8fNBE7Fk9Bj/KvIOx+LjKgDg==
+  dependencies:
+    "@material/base" "^13.0.0"
+    "@material/elevation" "^13.0.0"
+    "@material/feature-targeting" "^13.0.0"
+    "@material/ripple" "^13.0.0"
+    "@material/rtl" "^13.0.0"
+    "@material/tab-indicator" "^13.0.0"
+    "@material/theme" "^13.0.0"
+    "@material/typography" "^13.0.0"
+    tslib "^2.1.0"
+
 "@material/theme@^13.0.0":
   version "13.0.0"
   resolved "https://registry.yarnpkg.com/@material/theme/-/theme-13.0.0.tgz#dad25ca7c3427d5d35f074343c7f7957cbc1eb8c"
@@ -712,6 +767,47 @@
     "@material/dom" "^13.0.0"
     "@material/ripple" "^13.0.0"
     "@smui/common" "^6.0.0-beta.15"
+    svelte2tsx "^0.4.14"
+
+"@smui/tab-bar@^6.0.0-beta.15":
+  version "6.0.0-beta.15"
+  resolved "https://registry.yarnpkg.com/@smui/tab-bar/-/tab-bar-6.0.0-beta.15.tgz#803cc170945cf8c9764f54121986315ebde68140"
+  integrity sha512-IqVlnt4naqj6p20YVRDycFsuHojb4/AVfS1a2di/rzkXblTi0JC0EqaYEAPM1QMj05jHakKwmsW8MLZmUxuKkw==
+  dependencies:
+    "@material/tab-bar" "^13.0.0"
+    "@smui/common" "^6.0.0-beta.15"
+    "@smui/tab" "^6.0.0-beta.15"
+    "@smui/tab-scroller" "^6.0.0-beta.15"
+    svelte2tsx "^0.4.14"
+
+"@smui/tab-indicator@^6.0.0-beta.15":
+  version "6.0.0-beta.15"
+  resolved "https://registry.yarnpkg.com/@smui/tab-indicator/-/tab-indicator-6.0.0-beta.15.tgz#1160a99c397b4e5cb04f15b060aa4b8edf4b2655"
+  integrity sha512-O6mK3OFWh9fWHA+UsA0rI1yJsdTshCqjDlXJNrYraii7mBBKrp3U0bfCT20imY56cqQ2UQdWqd07yyjSs0DP+A==
+  dependencies:
+    "@material/tab-indicator" "^13.0.0"
+    "@smui/common" "^6.0.0-beta.15"
+    svelte2tsx "^0.4.14"
+
+"@smui/tab-scroller@^6.0.0-beta.15":
+  version "6.0.0-beta.15"
+  resolved "https://registry.yarnpkg.com/@smui/tab-scroller/-/tab-scroller-6.0.0-beta.15.tgz#455f9b2284e1ebd20dd5f649525b49dad9d1b3ee"
+  integrity sha512-8Inl7rYNCC7Ml4JCT05nMcXbUcZpNUSiS7MEJf4PxvJQkbicTH4Z9KWGWRwFfNyS5TYoDsWO74fgAn1JBRtn+w==
+  dependencies:
+    "@material/dom" "^13.0.0"
+    "@material/tab-scroller" "^13.0.0"
+    "@smui/common" "^6.0.0-beta.15"
+    svelte2tsx "^0.4.14"
+
+"@smui/tab@^6.0.0-beta.15":
+  version "6.0.0-beta.15"
+  resolved "https://registry.yarnpkg.com/@smui/tab/-/tab-6.0.0-beta.15.tgz#d34606bbe4af3dfcefac14be4a967772c5b791ed"
+  integrity sha512-f8LYFnB6HGEiGfX5U9qVZvf5dZMJPiS3heak7nylIU8nRvuIYHzwtzt2LSW9cVkZkr+bwEJE5XSTINzvrpu3ig==
+  dependencies:
+    "@material/tab" "^13.0.0"
+    "@smui/common" "^6.0.0-beta.15"
+    "@smui/ripple" "^6.0.0-beta.15"
+    "@smui/tab-indicator" "^6.0.0-beta.15"
     svelte2tsx "^0.4.14"
 
 "@sveltejs/adapter-auto@next":

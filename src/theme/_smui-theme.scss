@@ -1,14 +1,8 @@
 @use "sass:color";
 
-@use "@material/theme/color-palette";
-
-// Svelte Colors!
 @use "@material/theme/index" as theme with (
-  $primary: #ff3e00,
-  $secondary: #676778,
-  $surface: #fff,
-  $background: #fff,
-  $error: color-palette.$red-900
+  $primary: #ff4151,
+  $secondary: #282a36
 );
 
 html,
@@ -18,8 +12,9 @@ body {
 }
 
 a {
-  color: #40b3ff;
+  color: theme.$primary;
 }
+
 a:visited {
-  color: color.scale(#40b3ff, $lightness: -35%);
+  color: color.scale(theme.$primary, $lightness: -35%);
 }

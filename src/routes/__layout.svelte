@@ -1,5 +1,6 @@
 <script lang="ts">
   import { page } from "$app/stores";
+  import Wave from "$lib/components/atoms/Wave.svelte";
   import Tab, { Icon, Label } from "@smui/tab";
   import TabBar from "@smui/tab-bar";
   import "../app.css";
@@ -38,3 +39,5 @@
 </nav>
 
 <slot />
+
+<Wave class="fixed bottom-0 w-full h-1/2" />

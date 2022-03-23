@@ -513,6 +513,19 @@
     "@material/typography" "^13.0.0"
     tslib "^2.1.0"
 
+"@material/circular-progress@^13.0.0":
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/@material/circular-progress/-/circular-progress-13.0.0.tgz#ad90b88d1e88d522f7492ded4eaaac56376ce2aa"
+  integrity sha512-jSbr0ywY2N6s05tyqTXl/cG339C+qU3ck3FwXUq5SJup8CWT0AoJ8EG/CD10CEhNH8nH9Iwstve95oNgIt8G4g==
+  dependencies:
+    "@material/animation" "^13.0.0"
+    "@material/base" "^13.0.0"
+    "@material/feature-targeting" "^13.0.0"
+    "@material/progress-indicator" "^13.0.0"
+    "@material/rtl" "^13.0.0"
+    "@material/theme" "^13.0.0"
+    tslib "^2.1.0"
+
 "@material/density@^13.0.0":
   version "13.0.0"
   resolved "https://registry.yarnpkg.com/@material/density/-/density-13.0.0.tgz#5ae2fdec0418775014fed24e7ccdd5ba5d005d54"
@@ -544,6 +557,13 @@
   version "13.0.0"
   resolved "https://registry.yarnpkg.com/@material/feature-targeting/-/feature-targeting-13.0.0.tgz#7bc7840b40930b6831101a22882acdd0329591c0"
   integrity sha512-QJClfeaA4EMyAxKJy9WR0Nx+/VwSZCkhGLUVBG9NhxqYGfl/LtaeaidrNm32vYEoNZAofN92VD2RwQTRwp/dMQ==
+  dependencies:
+    tslib "^2.1.0"
+
+"@material/progress-indicator@^13.0.0":
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/@material/progress-indicator/-/progress-indicator-13.0.0.tgz#8097208c5fa3dd6753d8b7bf141c28beb0938c23"
+  integrity sha512-IfhAMn03gWg/Rl0Bg26Q1g+DrMnaULllz+ZJeIY7BXZC5qFYq1fLq4+RiQmfPGlJfURUjrWNLcI1VDVyXUHHzg==
   dependencies:
     tslib "^2.1.0"
 
@@ -750,6 +770,15 @@
     "@smui/ripple" "^6.0.0-beta.15"
     svelte2tsx "^0.4.14"
 
+"@smui/circular-progress@^6.0.0-beta.15":
+  version "6.0.0-beta.15"
+  resolved "https://registry.yarnpkg.com/@smui/circular-progress/-/circular-progress-6.0.0-beta.15.tgz#3b6104f6f8534bfdf6204da9d66b5d7219c81d4f"
+  integrity sha512-8141qtf+iMUn1OKmZoGa4B8lBaaSQNehfaPsJPNUf1Qe8EL+wC1mbkjlx7uRvXj+Sol9uheJdO2wBmg3Tdb68A==
+  dependencies:
+    "@material/circular-progress" "^13.0.0"
+    "@smui/common" "^6.0.0-beta.15"
+    svelte2tsx "^0.4.14"
+
 "@smui/common@^6.0.0-beta.15":
   version "6.0.0-beta.15"
   resolved "https://registry.yarnpkg.com/@smui/common/-/common-6.0.0-beta.15.tgz#b484d833c1c63a7a8edf0d34eb0219ad772cbc7a"
@@ -867,6 +896,13 @@
   resolved "https://registry.yarnpkg.com/@tsconfig/svelte/-/svelte-3.0.0.tgz#b06e059209f04c414de0069f2f0e2796d979fc6f"
   integrity sha512-pYrtLtOwku/7r1i9AMONsJMVYAtk3hzOfiGNekhtq5tYBGA7unMve8RvUclKLMT3PrihvJqUmzsRGh0RP84hKg==
 
+"@types/dompurify@^2.3.3":
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/@types/dompurify/-/dompurify-2.3.3.tgz#c24c92f698f77ed9cc9d9fa7888f90cf2bfaa23f"
+  integrity sha512-nnVQSgRVuZ/843oAfhA25eRSNzUFcBPk/LOiw5gm8mD9/X7CNcbRkQu/OsjCewO8+VIYfPxUnXvPEVGenw14+w==
+  dependencies:
+    "@types/trusted-types" "*"
+
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.4.tgz#8467d4b3c087805d63580480890791277ce35c44"
@@ -890,6 +926,11 @@
   version "7.0.10"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.10.tgz#9b05b7896166cd00e9cbd59864853abf65d9ac23"
   integrity sha512-BLO9bBq59vW3fxCpD4o0N4U+DXsvwvIcl+jofw0frQo/GrBFC+/jRZj1E7kgp6dvTyNmA4y6JCV5Id/r3mNP5A==
+
+"@types/marked@^4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@types/marked/-/marked-4.0.3.tgz#2098f4a77adaba9ce881c9e0b6baf29116e5acc4"
+  integrity sha512-HnMWQkLJEf/PnxZIfbm0yGJRRZYYMhb++O9M36UCTA9z53uPvVoSlAwJr3XOpDEryb7Hwl1qAx/MV6YIW1RXxg==
 
 "@types/node@*":
   version "17.0.22"
@@ -917,6 +958,11 @@
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-2.0.1.tgz#20f18294f797f2209b5f65c8e3b5c8e8261d127c"
   integrity sha512-Hl219/BT5fLAaz6NDkSuhzasy49dwQS/DSdu4MdggFB8zcXv7vflBI3xp7FEmkmdDkBUI2bPUNeMttp2knYdxw==
+
+"@types/trusted-types@*":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@types/trusted-types/-/trusted-types-2.0.2.tgz#fc25ad9943bcac11cceb8168db4f275e0e72e756"
+  integrity sha512-F5DIZ36YVLE+PN+Zwws4kJogq47hNgX3Nx6WyDJ3kcplxyke3XIzB8uK5n/Lpm1HBsbGzd6nmGehL8cPekP+Tg==
 
 "@types/yargs-parser@*":
   version "21.0.0"
@@ -1416,6 +1462,11 @@ doctrine@^3.0.0:
   integrity sha512-yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==
   dependencies:
     esutils "^2.0.2"
+
+dompurify@^2.3.6:
+  version "2.3.6"
+  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.3.6.tgz#2e019d7d7617aacac07cbbe3d88ae3ad354cf875"
+  integrity sha512-OFP2u/3T1R5CEgWCEONuJ1a5+MFKnOYpkywpUSxv/dj1LeBT1erK+JwM7zK0ROy2BRhqVCf0LRw/kHqKuMkVGg==
 
 electron-to-chromium@^1.4.84:
   version "1.4.88"
@@ -2407,6 +2458,11 @@ magic-string@^0.26.1:
   integrity sha512-ndThHmvgtieXe8J/VGPjG+Apu7v7ItcD5mhEIvOscWjPF/ccOiLxHaSuCAS2G+3x4GKsAbT8u7zdyamupui8Tg==
   dependencies:
     sourcemap-codec "^1.4.8"
+
+marked@^4.0.12:
+  version "4.0.12"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-4.0.12.tgz#2262a4e6fd1afd2f13557726238b69a48b982f7d"
+  integrity sha512-hgibXWrEDNBWgGiK18j/4lkS6ihTe9sxtV4Q1OQppb/0zzyPSzoFANBa5MfsG/zgsWklmNnhm0XACZOH/0HBiQ==
 
 memorystream@^0.3.1:
   version "0.3.1"

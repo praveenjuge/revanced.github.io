@@ -26,18 +26,21 @@
   let active = tabs.find((tab) => tab.path === $page.url.pathname);
 </script>
 
-<nav class="flex justify-between items-center p-5">
-  <h1 class="text-4xl font-bold">[ReVanced]</h1>
-  <div class="px-10 w-min rounded-lg mdc-elevation--z5">
-    <TabBar {tabs} let:tab bind:active>
-      <Tab {tab} href={tab.path}>
-        <Icon class="material-icons">{tab.icon}</Icon>
-        <Label>{tab.label}</Label>
-      </Tab>
-    </TabBar>
-  </div>
-</nav>
+<div class="flex overflow-hidden flex-col h-screen">
+  <nav class="flex justify-between items-center p-4">
+    <h1 class="text-4xl font-bold">[ReVanced]</h1>
+    <div class="px-10 w-min rounded-lg mdc-elevation--z5">
+      <TabBar {tabs} let:tab bind:active>
+        <Tab {tab} href={tab.path}>
+          <Icon class="material-icons">{tab.icon}</Icon>
+          <Label>{tab.label}</Label>
+        </Tab>
+      </TabBar>
+    </div>
+  </nav>
 
-<slot />
+  <slot />
+</div>
 
+<!-- TODO: figure out why the wave is not visible -->
 <Wave class="fixed bottom-0 w-full h-1/2 -z-10" />

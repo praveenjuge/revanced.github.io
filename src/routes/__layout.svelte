@@ -40,4 +40,4 @@
 
 <slot />
 
-<Wave class="fixed bottom-0 w-full h-1/2" />
+<Wave class="fixed bottom-0 w-full h-1/2 -z-10" />

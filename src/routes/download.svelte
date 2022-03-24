@@ -1,19 +1,41 @@
-<script>
-  import Changelog from "$lib/components/atoms/Changelog.svelte";
+<script context="module">
   import Button from "@smui/button";
   import Tab, { Icon, Label } from "@smui/tab";
   import TabBar from "@smui/tab-bar";
+  import { marked } from "marked";
 
+  /** @type {import('./download').Load} */
+  export async function load({ fetch }) {
+    const getChangelog = (repo, branch) =>
+      fetch(`https://raw.githubusercontent.com/${repo}/${branch}/CHANGELOG.md`)
+        .then((response) => response.text())
+        .then((text) => marked(text));
+
+    const changelogs = {
+      dev: await getChangelog("ReVancedTeam/revanced-patcher", "dev"),
+      main: await getChangelog("ReVancedTeam/revanced-patcher", "main"),
+    };
+
+    return {
+      status: 200,
+      props: { changelogs },
+    };
+  }
+</script>
+
+<script>
   const tabs = [
     {
       label: "Stable",
       icon: "check",
       branch: "main",
+      changelog: $$props.changelogs.main,
     },
     {
       label: "Pre-Release",
       icon: "warning",
       branch: "dev",
+      changelog: $$props.changelogs.dev,
     },
   ];
 
@@ -30,8 +52,8 @@
     </Tab>
   </TabBar>
 
-  <div class="overflow-y-auto h-full">
-    <Changelog repo="ReVancedTeam/revanced-patcher" branch={active.branch} />
+  <div class="overflow-y-auto h-full changelog">
+    {@html active.changelog}
   </div>
 
   <Button
@@ -49,3 +71,25 @@
     <Label>Download</Label>
   </Button>
 </div>
+
+<style lang="scss">
+  .changelog:global {
+    @apply flex flex-col space-y-4;
+
+    h1 {
+      @apply text-3xl font-bold;
+    }
+
+    h3 {
+      @apply text-xl font-bold;
+    }
+
+    ul {
+      @apply list-disc list-inside;
+    }
+
+    a {
+      color: #ff4151;
+    }
+  }
+</style>

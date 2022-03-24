@@ -2,17 +2,19 @@
   import Button, { Icon, Label } from "@smui/button";
 </script>
 
-<div class="flex flex-col justify-center items-center space-y-10 h-2/3">
+<div
+  class="flex flex-col justify-center items-center px-4 space-y-10 h-full text-center md:h-2/3"
+>
   <h1 class="text-8xl font-bold">[RE]</h1>
   <p class="text-xl font-semibold">
     A simple, lightweight, and extensible framework for building ******* mods.
   </p>
-  <div class="table space-x-4 text-center" style="border-spacing: 10px;">
+  <div class="flex flex-col space-y-4 sm:table" style="border-spacing: 10px;">
     <Button
       color="primary"
       variant="raised"
       href="/download"
-      class="table-cell w-1/2 h-16 text-xl"
+      class="h-16 text-xl sm:table-cell sm:w-1/2"
     >
       <Icon
         class="material-icons"
@@ -26,7 +28,7 @@
       color="secondary"
       variant="raised"
       href="/docs"
-      class="table-cell w-1/2 h-16 text-xl"
+      class="h-16 text-xl sm:table-cell sm:w-1/2"
     >
       <Icon
         class="material-icons"

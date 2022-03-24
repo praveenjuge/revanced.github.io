@@ -4,7 +4,7 @@
   preserveAspectRatio="none"
   {...$$props}
 >
-  <path fill="#ff4151" class="wave" />
+  <path class="wave" />
 </svg>
 
 <style>
@@ -12,6 +12,7 @@
     animation: wave-anim 40s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    fill: currentColor;
   }
 
   @keyframes wave-anim {

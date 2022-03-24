@@ -24,9 +24,17 @@
   ];
 
   let active = tabs.find((tab) => tab.path === $page.url.pathname);
+
+  $: withWaves = $page.url.pathname === tabs[0].path;
 </script>
 
-<div class="flex overflow-hidden flex-col h-screen">
+<Wave
+  class="absolute bottom-0 w-full transition-all duration-1000 text-primary {withWaves
+    ? 'h-1/2 opacity-100 blur-0'
+    : 'h-full opacity-0 blur'}"
+/>
+
+<div class="flex overflow-hidden relative flex-col h-screen">
   <nav class="flex justify-between items-center p-4">
     <h1 class="text-4xl font-bold">[ReVanced]</h1>
     <div class="px-10 w-min rounded-lg mdc-elevation--z5">
@@ -41,6 +49,3 @@
 
   <slot />
 </div>
-
-<!-- TODO: figure out why the wave is not visible -->
-<Wave class="fixed bottom-0 w-full h-1/2 -z-10" />

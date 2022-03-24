@@ -7,12 +7,12 @@
   <p class="text-xl font-semibold">
     A simple, lightweight, and extensible framework for building ******* mods.
   </p>
-  <div class="flex justify-center space-x-5">
+  <div class="table space-x-4 text-center" style="border-spacing: 10px;">
     <Button
       color="primary"
       variant="raised"
       href="/download"
-      class="h-16 text-xl"
+      class="table-cell w-1/2 h-16 text-xl"
     >
       <Icon
         class="material-icons"
@@ -26,7 +26,7 @@
       color="secondary"
       variant="raised"
       href="/docs"
-      class="h-16 text-xl"
+      class="table-cell w-1/2 h-16 text-xl"
     >
       <Icon
         class="material-icons"

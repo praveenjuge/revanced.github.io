@@ -2,7 +2,7 @@
   import Button, { Icon, Label } from "@smui/button";
 </script>
 
-<div class="flex flex-col justify-center items-center mt-40 space-y-10">
+<div class="flex flex-col justify-center items-center space-y-10 h-2/3">
   <h1 class="text-8xl font-bold">[RE]</h1>
   <p class="text-xl font-semibold">
     A simple, lightweight, and extensible framework for building ******* mods.

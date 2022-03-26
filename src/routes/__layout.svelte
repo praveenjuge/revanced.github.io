@@ -30,20 +30,23 @@
   //     $page.url.pathname.startsWith(tab.path)
   // );
 
+  $: isHome = $page.url.pathname === "/";
+
   $: active = tabs.find((tab) => $page.url.pathname === tab.path);
 
-  $: withWaves = $page.url.pathname === "/";
+  $: title =
+    isHome || active == null ? "ReVanced" : `ReVanced | ${active.label}`;
 </script>
 
 <svelte:head>
-  <title>ReVanced</title>
-  <meta property="og:title" content="ReVanced" />
+  <title>{title}</title>
+  <meta property="og:title" content={title} />
   <meta
     property="og:description"
     content="A simple, lightweight, and extensible framework for building ******* mods."
   />
   <meta property="og:image" content="https://cataas.com/cat/gif" />
-  <meta property="og:url" content="https://revanced.app" />
+  <meta property="og:url" content={$page.url.href} />
   <meta property="og:type" content="website" />
   <meta property="og:locale " content="en_US" />
   <meta name="twitter:card" content="summary_large_image" />
@@ -54,7 +57,7 @@
 </svelte:head>
 
 <Wave
-  class="hidden md:block absolute bottom-0 w-full transition-all duration-1000 text-primary {withWaves
+  class="hidden md:block absolute bottom-0 w-full transition-all duration-1000 text-primary {isHome
     ? 'h-1/2 opacity-100 blur-0'
     : 'h-full opacity-0 blur'}"
 />

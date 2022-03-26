@@ -4,7 +4,7 @@
   import Wave from "$lib/components/atoms/Wave.svelte";
   import Tab, { Icon, Label } from "@smui/tab";
   import TabBar from "@smui/tab-bar";
-  import { Discord, Github } from "@steeze-ui/simple-icons";
+  import { Discord, Github, Reddit, Twitter } from "@steeze-ui/simple-icons";
   import "../app.css";
   import "../styles/markdown.scss";
   import "../styles/prism.scss";
@@ -79,6 +79,8 @@
       <div class="flex items-center space-x-6 ml-6">
         <SocialIcon href="https://github.com/ReVancedTeam" icon={Github} />
         <SocialIcon href="https://discord.gg/revanced" icon={Discord} />
+        <SocialIcon href="https://reddit.com/r/revancedapp" icon={Reddit} />
+        <SocialIcon href="https://twitter.com/revancedapp" icon={Twitter} />
       </div>
     </div>
     <h1 class="block text-4xl font-bold sm:hidden">[=]</h1>

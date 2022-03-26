@@ -1,0 +1,75 @@
+.markdown {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold mb-4 mt-6;
+  }
+
+  h1,
+  h2 {
+    @apply border-b border-secondary pb-1;
+  }
+
+  h1 {
+    @apply text-4xl;
+  }
+
+  h2 {
+    @apply text-2xl;
+  }
+
+  h3 {
+    @apply text-xl;
+  }
+
+  h4 {
+    @apply text-lg;
+  }
+
+  p,
+  blockquote,
+  ul,
+  ol,
+  dl,
+  table,
+  pre,
+  details {
+    @apply text-base mb-4;
+  }
+
+  a {
+    @apply text-primary;
+  }
+
+  blockquote {
+    @apply border-l-4 border-secondary pl-4;
+  }
+
+  ul,
+  ol {
+    @apply pl-4;
+  }
+
+  ul {
+    @apply list-disc;
+  }
+
+  ol {
+    @apply list-decimal;
+  }
+
+  hr {
+    @apply border-t-4 border-secondary;
+  }
+
+  > :first-child {
+    @apply mt-0;
+  }
+
+  > :last-child {
+    @apply mb-0;
+  }
+}

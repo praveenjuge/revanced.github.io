@@ -30,7 +30,7 @@
   </Drawer>
 
   <AppContent class="overflow-y-auto w-full">
-    <main class="px-4 mx-auto max-w-screen-lg">
+    <main class="px-4 mx-auto max-w-screen-lg markdown">
       <slot />
     </main>
   </AppContent>

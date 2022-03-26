@@ -15,7 +15,3 @@ body {
 a {
   color: theme.$primary;
 }
-
-a:visited {
-  color: color.scale(theme.$primary, $lightness: -35%);
-}

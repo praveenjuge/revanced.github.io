@@ -4,6 +4,7 @@
   import Tab, { Icon, Label } from "@smui/tab";
   import TabBar from "@smui/tab-bar";
   import "../app.css";
+  import "../styles/markdown.scss";
 
   const tabs = [
     {

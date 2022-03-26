@@ -35,7 +35,7 @@
   $: active = tabs.find((tab) => $page.url.pathname === tab.path);
 
   $: title =
-    isHome || active == null ? "ReVanced" : `ReVanced | ${active.label}`;
+    isHome || active == null ? "ReVanced" : `ReVanced • ${active.label}`;
 </script>
 
 <svelte:head>

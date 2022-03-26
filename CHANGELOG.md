@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/ReVancedTeam/revanced-website/compare/v1.0.0...v1.1.0) (2022-03-26)
+
+
+### Bug Fixes
+
+* disable npm publishing ([e598de8](https://github.com/ReVancedTeam/revanced-website/commit/e598de8a1f5764cfb5697310bcb5b9c41e0042fe))
+
+
+### Features
+
+* add social media icons ([323cf01](https://github.com/ReVancedTeam/revanced-website/commit/323cf01f10a0e3c79e35988425cae3c79995e896))
+
 # 1.0.0 (2022-03-26)
 
 

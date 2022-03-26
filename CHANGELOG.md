@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/ReVancedTeam/revanced-website/compare/v1.1.3...v1.2.0) (2022-03-26)
+
+
+### Features
+
+* add social icons for reddit and twitter ([88d589f](https://github.com/ReVancedTeam/revanced-website/commit/88d589f532c2429423a9bc1941a5a5e142ece2ad))
+
 ## [1.1.3](https://github.com/ReVancedTeam/revanced-website/compare/v1.1.2...v1.1.3) (2022-03-26)
 
 

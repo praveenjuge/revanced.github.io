@@ -6,8 +6,6 @@
   $surface: #0f111a
 );
 
-@use "@material/elevation/mdc-elevation";
-
 html,
 body {
   background-color: theme.$surface;

@@ -5,8 +5,6 @@
   $secondary: #282a36
 );
 
-@use "@material/elevation/mdc-elevation";
-
 html,
 body {
   background-color: theme.$surface;

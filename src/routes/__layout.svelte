@@ -45,9 +45,7 @@
   <nav class="flex justify-between items-center p-4">
     <h1 class="hidden text-4xl font-bold md:block">[ReVanced]</h1>
     <h1 class="block text-4xl font-bold md:hidden">[RE]</h1>
-    <div
-      class="hidden px-5 w-min rounded-lg sm:block md:px-10 mdc-elevation--z5"
-    >
+    <div class="hidden sm:block">
       <TabBar {tabs} {active} let:tab>
         <Tab {tab} href={tab.path}>
           <Icon class="material-icons">{tab.icon}</Icon>

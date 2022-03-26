@@ -81,7 +81,7 @@
           rel="noopener noreferrer"
           class="fill-current text-white/50 hover:text-primary transition-colors"
         >
-          <Icon src={Github} class="w-8 h-8" />
+          <Icon src={Github} class="w-6 h-6" />
         </a>
         <a
           href="https://discord.gg/revanced"
@@ -89,7 +89,7 @@
           rel="noopener noreferrer"
           class="fill-current text-white/50 hover:text-primary transition-colors"
         >
-          <Icon src={Discord} class="w-8 h-8" />
+          <Icon src={Discord} class="w-6 h-6" />
         </a>
       </div>
     </div>

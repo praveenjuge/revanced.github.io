@@ -52,7 +52,7 @@
     </Tab>
   </TabBar>
 
-  <div class="overflow-y-auto h-full changelog">
+  <div class="overflow-y-auto h-full markdown">
     {@html active.changelog}
   </div>
 
@@ -71,25 +71,3 @@
     <Label>Download</Label>
   </Button>
 </div>
-
-<style lang="scss">
-  .changelog:global {
-    @apply flex flex-col space-y-4;
-
-    h1 {
-      @apply text-3xl font-bold;
-    }
-
-    h3 {
-      @apply text-xl font-bold;
-    }
-
-    ul {
-      @apply list-disc list-inside;
-    }
-
-    a {
-      color: #ff4151;
-    }
-  }
-</style>

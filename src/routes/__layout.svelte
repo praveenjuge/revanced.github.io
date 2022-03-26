@@ -35,6 +35,24 @@
   $: withWaves = $page.url.pathname === "/";
 </script>
 
+<svelte:head>
+  <title>ReVanced</title>
+  <meta property="og:title" content="ReVanced" />
+  <meta
+    property="og:description"
+    content="A simple, lightweight, and extensible framework for building ******* mods."
+  />
+  <meta property="og:image" content="https://cataas.com/cat/gif" />
+  <meta property="og:url" content="https://revanced.app" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale " content="en_US" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@revancedapp" />
+  <meta name="twitter:site:id" content="@revancedapp" />
+  <meta name="twitter:creator" content="@revancedapp" />
+  <meta name="twitter:creator:id" content="@revancedapp" />
+</svelte:head>
+
 <Wave
   class="hidden md:block absolute bottom-0 w-full transition-all duration-1000 text-primary {withWaves
     ? 'h-1/2 opacity-100 blur-0'

@@ -1,10 +1,10 @@
 <script lang="ts">
   import { page } from "$app/stores";
+  import SocialIcon from "$lib/components/atoms/SocialIcon.svelte";
   import Wave from "$lib/components/atoms/Wave.svelte";
-  import Tab, { Icon as TabIcon, Label as TabLabel } from "@smui/tab";
+  import Tab, { Icon, Label } from "@smui/tab";
   import TabBar from "@smui/tab-bar";
   import { Discord, Github } from "@steeze-ui/simple-icons";
-  import { Icon } from "@steeze-ui/svelte-icon";
   import "../app.css";
   import "../styles/markdown.scss";
   import "../styles/prism.scss";
@@ -72,27 +72,13 @@
     <div class="hidden sm:flex">
       <TabBar {tabs} {active} let:tab>
         <Tab {tab} href={tab.path}>
-          <TabIcon class="material-icons">{tab.icon}</TabIcon>
-          <TabLabel>{tab.label}</TabLabel>
+          <Icon class="material-icons">{tab.icon}</Icon>
+          <Label>{tab.label}</Label>
         </Tab>
       </TabBar>
       <div class="flex items-center space-x-6 ml-6">
-        <a
-          href="https://github.com/ReVancedTeam"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="fill-current text-white/50 hover:text-primary transition-colors"
-        >
-          <Icon src={Github} class="w-6 h-6" />
-        </a>
-        <a
-          href="https://discord.gg/revanced"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="fill-current text-white/50 hover:text-primary transition-colors"
-        >
-          <Icon src={Discord} class="w-6 h-6" />
-        </a>
+        <SocialIcon href="https://github.com/ReVancedTeam" icon={Github} />
+        <SocialIcon href="https://discord.gg/revanced" icon={Discord} />
       </div>
     </div>
     <h1 class="block text-4xl font-bold sm:hidden">[=]</h1>

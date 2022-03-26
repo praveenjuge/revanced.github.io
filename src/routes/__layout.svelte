@@ -79,7 +79,7 @@
           href="https://github.com/ReVancedTeam"
           target="_blank"
           rel="noopener noreferrer"
-          class="fill-current text-secondary hover:text-primary transition-colors"
+          class="fill-current text-white/50 hover:text-primary transition-colors"
         >
           <Icon src={Github} class="w-8 h-8" />
         </a>
@@ -87,7 +87,7 @@
           href="https://discord.gg/revanced"
           target="_blank"
           rel="noopener noreferrer"
-          class="fill-current text-secondary hover:text-primary transition-colors"
+          class="fill-current text-white/50 hover:text-primary transition-colors"
         >
           <Icon src={Discord} class="w-8 h-8" />
         </a>

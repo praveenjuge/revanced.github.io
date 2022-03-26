@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "@playwright/test": "^1.20.0",
+    "@playwright/test": "^1.20.1",
     "@smui/button": "^6.0.0-beta.15",
     "@smui/circular-progress": "^6.0.0-beta.15",
     "@smui/drawer": "^6.0.0-beta.15",

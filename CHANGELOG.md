@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/ReVancedTeam/revanced-website/compare/v1.1.0...v1.1.1) (2022-03-26)
+
+
+### Bug Fixes
+
+* match the color of the icons to the navbar ([c167731](https://github.com/ReVancedTeam/revanced-website/commit/c167731d9aa211bdd06c79a4f63aa066b1433f5d))
+
 # [1.1.0](https://github.com/ReVancedTeam/revanced-website/compare/v1.0.0...v1.1.0) (2022-03-26)
 
 

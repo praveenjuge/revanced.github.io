@@ -23,8 +23,16 @@
     },
   ];
 
-  $: active = tabs.find((tab) => tab.path === $page.url.pathname);
-  $: withWaves = $page.url.pathname === tabs[0].path;
+  //TODO: doesn't work. why?
+  // $: active = tabs.find(
+  //   (tab) =>
+  //     ($page.url.pathname === "/" && tab.path === "/") ||
+  //     $page.url.pathname.startsWith(tab.path)
+  // );
+
+  $: active = tabs.find((tab) => $page.url.pathname === tab.path);
+
+  $: withWaves = $page.url.pathname === "/";
 </script>
 
 <Wave

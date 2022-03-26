@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/ReVancedTeam/revanced-website/compare/v1.1.2...v1.1.3) (2022-03-26)
+
+
+### Bug Fixes
+
+* add a link to the navbar logo ([e4ac53e](https://github.com/ReVancedTeam/revanced-website/commit/e4ac53e2eb185b0ddd785e97da5d49f2da32bf0b))
+
 ## [1.1.2](https://github.com/ReVancedTeam/revanced-website/compare/v1.1.1...v1.1.2) (2022-03-26)
 
 

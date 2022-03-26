@@ -23,16 +23,13 @@
     },
   ];
 
-  //TODO: doesn't work. why?
-  // $: active = tabs.find(
-  //   (tab) =>
-  //     ($page.url.pathname === "/" && tab.path === "/") ||
-  //     $page.url.pathname.startsWith(tab.path)
-  // );
-
   $: isHome = $page.url.pathname === "/";
 
-  $: active = tabs.find((tab) => $page.url.pathname === tab.path);
+  $: active = tabs.find(
+    (tab) =>
+      (isHome && tab.path === "/") ||
+      ($page.url.pathname.startsWith(tab.path) && tab.path !== "/")
+  );
 
   $: title =
     isHome || active == null ? "ReVanced" : `ReVanced • ${active.label}`;

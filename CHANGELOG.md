@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/ReVancedTeam/revanced-website/compare/v1.1.1...v1.1.2) (2022-03-26)
+
+
+### Bug Fixes
+
+* match the size of the icons to the navbar ([1292e51](https://github.com/ReVancedTeam/revanced-website/commit/1292e512b5bf23fdad52384166354262458605c3))
+
 ## [1.1.1](https://github.com/ReVancedTeam/revanced-website/compare/v1.1.0...v1.1.1) (2022-03-26)
 
 

@@ -5,6 +5,7 @@
   import TabBar from "@smui/tab-bar";
   import "../app.css";
   import "../styles/markdown.scss";
+  import "../styles/prism.scss";
 
   const tabs = [
     {

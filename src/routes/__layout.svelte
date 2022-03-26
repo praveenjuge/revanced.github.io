@@ -65,8 +65,10 @@
 
 <div class="flex overflow-hidden relative flex-col h-screen">
   <nav class="flex justify-between items-center p-4">
-    <h1 class="hidden text-4xl font-bold md:block">[ReVanced]</h1>
-    <h1 class="block text-4xl font-bold md:hidden">[RE]</h1>
+    <a href="/">
+      <h1 class="hidden text-4xl font-bold md:block">[ReVanced]</h1>
+      <h1 class="block text-4xl font-bold md:hidden">[RE]</h1>
+    </a>
     <div class="hidden sm:flex">
       <TabBar {tabs} {active} let:tab>
         <Tab {tab} href={tab.path}>

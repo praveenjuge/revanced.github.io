@@ -1,8 +1,10 @@
 <script lang="ts">
   import { page } from "$app/stores";
   import Wave from "$lib/components/atoms/Wave.svelte";
-  import Tab, { Icon, Label } from "@smui/tab";
+  import Tab, { Icon as TabIcon, Label as TabLabel } from "@smui/tab";
   import TabBar from "@smui/tab-bar";
+  import { Discord, Github } from "@steeze-ui/simple-icons";
+  import { Icon } from "@steeze-ui/svelte-icon";
   import "../app.css";
   import "../styles/markdown.scss";
   import "../styles/prism.scss";
@@ -65,13 +67,31 @@
   <nav class="flex justify-between items-center p-4">
     <h1 class="hidden text-4xl font-bold md:block">[ReVanced]</h1>
     <h1 class="block text-4xl font-bold md:hidden">[RE]</h1>
-    <div class="hidden sm:block">
+    <div class="hidden sm:flex">
       <TabBar {tabs} {active} let:tab>
         <Tab {tab} href={tab.path}>
-          <Icon class="material-icons">{tab.icon}</Icon>
-          <Label>{tab.label}</Label>
+          <TabIcon class="material-icons">{tab.icon}</TabIcon>
+          <TabLabel>{tab.label}</TabLabel>
         </Tab>
       </TabBar>
+      <div class="flex items-center space-x-6 ml-6">
+        <a
+          href="https://github.com/ReVancedTeam"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="fill-current text-secondary hover:text-primary transition-colors"
+        >
+          <Icon src={Github} class="w-8 h-8" />
+        </a>
+        <a
+          href="https://discord.gg/revanced"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="fill-current text-secondary hover:text-primary transition-colors"
+        >
+          <Icon src={Discord} class="w-8 h-8" />
+        </a>
+      </div>
     </div>
     <h1 class="block text-4xl font-bold sm:hidden">[=]</h1>
   </nav>

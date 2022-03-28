@@ -1,9 +1,7 @@
 <script lang="ts">
   import { page } from "$app/stores";
-  import SocialIcon from "$lib/components/atoms/SocialIcon.svelte";
   import Wave from "$lib/components/atoms/Wave.svelte";
-  import Tab, { Icon, Label } from "@smui/tab";
-  import TabBar from "@smui/tab-bar";
+  import Nav from "$lib/components/organisms/Nav.svelte";
   import { Discord, Github, Reddit, Twitter } from "@steeze-ui/simple-icons";
   import "../app.css";
   import "../styles/markdown.scss";
@@ -25,6 +23,13 @@
       icon: "book",
       path: "/docs",
     },
+  ];
+
+  const socials = [
+    { href: "https://github.com/ReVancedTeam", icon: Github },
+    { href: "https://discord.gg/revanced", icon: Discord },
+    { href: "https://reddit.com/r/revancedapp", icon: Reddit },
+    { href: "https://twitter.com/revancedapp", icon: Twitter },
   ];
 
   $: isHome = $page.url.pathname === "/";
@@ -64,27 +69,6 @@
 />
 
 <div class="flex overflow-hidden relative flex-col h-screen">
-  <nav class="flex justify-between items-center p-4">
-    <a href="/">
-      <h1 class="hidden text-4xl font-bold md:block">[ReVanced]</h1>
-      <h1 class="block text-4xl font-bold md:hidden">[RE]</h1>
-    </a>
-    <div class="hidden sm:flex">
-      <TabBar {tabs} {active} let:tab>
-        <Tab {tab} href={tab.path}>
-          <Icon class="material-icons">{tab.icon}</Icon>
-          <Label>{tab.label}</Label>
-        </Tab>
-      </TabBar>
-      <div class="flex items-center space-x-6 ml-6">
-        <SocialIcon href="https://github.com/ReVancedTeam" icon={Github} />
-        <SocialIcon href="https://discord.gg/revanced" icon={Discord} />
-        <SocialIcon href="https://reddit.com/r/revancedapp" icon={Reddit} />
-        <SocialIcon href="https://twitter.com/revancedapp" icon={Twitter} />
-      </div>
-    </div>
-    <h1 class="block text-4xl font-bold sm:hidden">[=]</h1>
-  </nav>
-
+  <Nav {tabs} {active} {socials} />
   <slot />
 </div>

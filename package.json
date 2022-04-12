@@ -5,7 +5,7 @@
     "@semantic-release/git": "^10.0.1",
     "@smui/button": "^6.0.0-beta.15",
     "@smui/circular-progress": "^6.0.0-beta.15",
-    "@smui/drawer": "^6.0.0-beta.15",
+    "@smui/drawer": "^6.0.0-beta.16",
     "@smui/list": "^6.0.0-beta.15",
     "@smui/tab": "^6.0.0-beta.15",
     "@smui/tab-bar": "^6.0.0-beta.16",

@@ -844,15 +844,15 @@
     "@tsconfig/svelte" "^3.0.0"
     svelte2tsx "^0.5.5"
 
-"@smui/drawer@^6.0.0-beta.15":
-  version "6.0.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@smui/drawer/-/drawer-6.0.0-beta.15.tgz#4fe19c0e0ed741300b801294176781b6fc1a2f9d"
-  integrity sha512-tLl5j/IVmyoqW9ZfxZxLz4gxph5WRFtrANmh5l76szWjmMhJ5omRvmWs3Ke+26zsQSkW70wN1y5eKJRHif+YOA==
+"@smui/drawer@^6.0.0-beta.16":
+  version "6.0.0-beta.16"
+  resolved "https://registry.yarnpkg.com/@smui/drawer/-/drawer-6.0.0-beta.16.tgz#57d9882eb53e597a476d9da0fbf919bc31ba5d6b"
+  integrity sha512-BNWQP2ZhFU/oAC8EFxzPvLhpBknaMK0zDwY/WNvYpP0YP0eH6xlZaJoPpPxT1QYdgmXA6EvG2u4FqE+gCWI9fg==
   dependencies:
     "@material/dom" "^13.0.0"
     "@material/drawer" "^13.0.0"
-    "@smui/common" "^6.0.0-beta.15"
-    svelte2tsx "^0.4.14"
+    "@smui/common" "^6.0.0-beta.16"
+    svelte2tsx "^0.5.5"
 
 "@smui/list@^6.0.0-beta.15":
   version "6.0.0-beta.15"

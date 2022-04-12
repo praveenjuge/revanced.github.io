@@ -3305,10 +3305,10 @@ sander@^0.5.0:
     mkdirp "^0.5.1"
     rimraf "^2.5.2"
 
-sass@^1.49.7:
-  version "1.49.9"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.49.9.tgz#b15a189ecb0ca9e24634bae5d1ebc191809712f9"
-  integrity sha512-YlYWkkHP9fbwaFRZQRXgDi3mXZShslVmmo+FVK3kHLUELHHEYrCmL1x6IUjC7wLS6VuJSAFXRQS/DxdsC4xL1A==
+sass@^1.49.9:
+  version "1.50.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.50.0.tgz#3e407e2ebc53b12f1e35ce45efb226ea6063c7c8"
+  integrity sha512-cLsD6MEZ5URXHStxApajEh7gW189kkjn4Rc8DQweMyF+o5HF5nfEz8QYLMlPsTOD88DknatTmBWkOcw5/LnJLQ==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
@@ -3384,13 +3384,13 @@ smart-buffer@^4.2.0:
   resolved "https://registry.yarnpkg.com/smart-buffer/-/smart-buffer-4.2.0.tgz#6e1d71fa4f18c05f7d0ff216dd16a481d0e8d9ae"
   integrity sha512-94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg==
 
-smui-theme@^6.0.0-beta.15:
-  version "6.0.0-beta.15"
-  resolved "https://registry.yarnpkg.com/smui-theme/-/smui-theme-6.0.0-beta.15.tgz#2fd9abb0e640c2d8ddd95f81395fbc6fbcf03354"
-  integrity sha512-25lWU/WtwwEcnN0ZuC30s6sj5jj5Y8ro8CYf7oanK6YAM/izOrrPSSsgIZBcRnkzyGANVwkWG81gd1uR3UkEcg==
+smui-theme@^6.0.0-beta.16:
+  version "6.0.0-beta.16"
+  resolved "https://registry.yarnpkg.com/smui-theme/-/smui-theme-6.0.0-beta.16.tgz#faadbd1de17e62f5b5a8c5eaf65065db913854c0"
+  integrity sha512-koh62ENvVp7ure62NUHTTaLudH1nxdL/YJt5u0rLuBSs53UPg8L8hdmcGqmTawj3h2dlD+yuHnyx8lpT1y8EWQ==
   dependencies:
     node-fetch "^2.6.7"
-    sass "^1.49.7"
+    sass "^1.49.9"
     yargs "^17.3.1"
 
 socks-proxy-agent@6.1.1:

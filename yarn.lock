@@ -812,19 +812,19 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@smui/button@^6.0.0-beta.15":
-  version "6.0.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@smui/button/-/button-6.0.0-beta.15.tgz#2efc44ca58815221f8ed70d561163862b6ef4ab3"
-  integrity sha512-0byc0VyBh5xXLHX8nR9R9/16uaMiNxCkHhm9fcz7Mq761qjxIt34AK8jlDOQQfLCP3/0PLNJjGk2+r+WtTaazA==
+"@smui/button@^6.0.0-beta.16":
+  version "6.0.0-beta.16"
+  resolved "https://registry.yarnpkg.com/@smui/button/-/button-6.0.0-beta.16.tgz#5681c0be6a15a9e1773a9e760675340101a47e7d"
+  integrity sha512-+sBnqo8PlbvV7R3sHUOu+/y2xqiDwcpjLkW7BVvbK0r3Rit87yKCb5Octa0DnnTmNh9W6bHGe162v760drcSfw==
   dependencies:
     "@material/button" "^13.0.0"
     "@material/elevation" "^13.0.0"
     "@material/feature-targeting" "^13.0.0"
     "@material/ripple" "^13.0.0"
     "@material/theme" "^13.0.0"
-    "@smui/common" "^6.0.0-beta.15"
-    "@smui/ripple" "^6.0.0-beta.15"
-    svelte2tsx "^0.4.14"
+    "@smui/common" "^6.0.0-beta.16"
+    "@smui/ripple" "^6.0.0-beta.16"
+    svelte2tsx "^0.5.5"
 
 "@smui/circular-progress@^6.0.0-beta.15":
   version "6.0.0-beta.15"
@@ -866,15 +866,15 @@
     "@smui/ripple" "^6.0.0-beta.15"
     svelte2tsx "^0.4.14"
 
-"@smui/ripple@^6.0.0-beta.15":
-  version "6.0.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@smui/ripple/-/ripple-6.0.0-beta.15.tgz#ecc75b982a7b444d69985da7640b974f0361d591"
-  integrity sha512-f8SUeI8M7vrSGP9wLWq5KP6HsPBElqWoI5jDm6hcIQr0Q9xFRkPn64J4Cfph3EcSNbLGFGO5BLBbaw2lr89plw==
+"@smui/ripple@^6.0.0-beta.15", "@smui/ripple@^6.0.0-beta.16":
+  version "6.0.0-beta.16"
+  resolved "https://registry.yarnpkg.com/@smui/ripple/-/ripple-6.0.0-beta.16.tgz#b5a875165e51703e41e725b7f4cccc3f6106675b"
+  integrity sha512-9vlsFn8ZL0tpWKHmDfZPPzQzdusLNZaA3CzpJKnnMIWvlUZVixR780iHa1YXg0cEEQ2lPlSK4CFJEdiGMFRAow==
   dependencies:
     "@material/dom" "^13.0.0"
     "@material/ripple" "^13.0.0"
-    "@smui/common" "^6.0.0-beta.15"
-    svelte2tsx "^0.4.14"
+    "@smui/common" "^6.0.0-beta.16"
+    svelte2tsx "^0.5.5"
 
 "@smui/ripple@^6.0.0-beta.16":
   version "6.0.0-beta.16"

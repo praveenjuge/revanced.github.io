@@ -854,26 +854,16 @@
     "@smui/common" "^6.0.0-beta.16"
     svelte2tsx "^0.5.5"
 
-"@smui/list@^6.0.0-beta.15":
-  version "6.0.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@smui/list/-/list-6.0.0-beta.15.tgz#08ce48a63aca18174fcc2aa9a4a66290b6d22fb2"
-  integrity sha512-IBMxNitaz+hZWJdp84rkVB3VcAyJoOIsUNJKrgUAAC2N6I6PV2/88HsUf2c7vg1bx6xTWZfpf++qb7Umud99Iw==
+"@smui/list@^6.0.0-beta.16":
+  version "6.0.0-beta.16"
+  resolved "https://registry.yarnpkg.com/@smui/list/-/list-6.0.0-beta.16.tgz#2ead6e40cbbefc72a3924289b30b723c66f8863e"
+  integrity sha512-eMzbQPk9F07rxvynLalNqlrc6WwIGVJna6eotBYB2JELpSU+oB86xicgKK08d1w3TLY8zwVUmcigSEWmM843mw==
   dependencies:
     "@material/dom" "^13.0.0"
     "@material/feature-targeting" "^13.0.0"
     "@material/list" "^13.0.0"
-    "@smui/common" "^6.0.0-beta.15"
-    "@smui/ripple" "^6.0.0-beta.15"
-    svelte2tsx "^0.4.14"
-
-"@smui/ripple@^6.0.0-beta.15", "@smui/ripple@^6.0.0-beta.16":
-  version "6.0.0-beta.16"
-  resolved "https://registry.yarnpkg.com/@smui/ripple/-/ripple-6.0.0-beta.16.tgz#b5a875165e51703e41e725b7f4cccc3f6106675b"
-  integrity sha512-9vlsFn8ZL0tpWKHmDfZPPzQzdusLNZaA3CzpJKnnMIWvlUZVixR780iHa1YXg0cEEQ2lPlSK4CFJEdiGMFRAow==
-  dependencies:
-    "@material/dom" "^13.0.0"
-    "@material/ripple" "^13.0.0"
     "@smui/common" "^6.0.0-beta.16"
+    "@smui/ripple" "^6.0.0-beta.16"
     svelte2tsx "^0.5.5"
 
 "@smui/ripple@^6.0.0-beta.16":

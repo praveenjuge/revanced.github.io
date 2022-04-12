@@ -835,24 +835,24 @@
     "@smui/common" "^6.0.0-beta.15"
     svelte2tsx "^0.4.14"
 
-"@smui/common@^6.0.0-beta.15":
-  version "6.0.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@smui/common/-/common-6.0.0-beta.15.tgz#b484d833c1c63a7a8edf0d34eb0219ad772cbc7a"
-  integrity sha512-FzSKNFxC6IPhyu8YVh1GKHUddPchuvW3spYV59cEZfJHiQwG9NMEjfcCN546QMNXC9qdkrkL8XjOnW7uYZVdnQ==
+"@smui/common@^6.0.0-beta.15", "@smui/common@^6.0.0-beta.16":
+  version "6.0.0-beta.16"
+  resolved "https://registry.yarnpkg.com/@smui/common/-/common-6.0.0-beta.16.tgz#ec761c295a1e503df0c7e4b7cb5b33847dc22055"
+  integrity sha512-Ual6505AOP75T+IneOQ6e1tnlhDflJX+yxa9T8Hx5X00MOiULvWACg/RW3c8UEQAc96YnEsA3utv5qDy8tZpmg==
   dependencies:
     "@material/dom" "^13.0.0"
     "@tsconfig/svelte" "^3.0.0"
-    svelte2tsx "^0.4.14"
+    svelte2tsx "^0.5.5"
 
-"@smui/drawer@^6.0.0-beta.15":
-  version "6.0.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@smui/drawer/-/drawer-6.0.0-beta.15.tgz#4fe19c0e0ed741300b801294176781b6fc1a2f9d"
-  integrity sha512-tLl5j/IVmyoqW9ZfxZxLz4gxph5WRFtrANmh5l76szWjmMhJ5omRvmWs3Ke+26zsQSkW70wN1y5eKJRHif+YOA==
+"@smui/drawer@^6.0.0-beta.16":
+  version "6.0.0-beta.16"
+  resolved "https://registry.yarnpkg.com/@smui/drawer/-/drawer-6.0.0-beta.16.tgz#57d9882eb53e597a476d9da0fbf919bc31ba5d6b"
+  integrity sha512-BNWQP2ZhFU/oAC8EFxzPvLhpBknaMK0zDwY/WNvYpP0YP0eH6xlZaJoPpPxT1QYdgmXA6EvG2u4FqE+gCWI9fg==
   dependencies:
     "@material/dom" "^13.0.0"
     "@material/drawer" "^13.0.0"
-    "@smui/common" "^6.0.0-beta.15"
-    svelte2tsx "^0.4.14"
+    "@smui/common" "^6.0.0-beta.16"
+    svelte2tsx "^0.5.5"
 
 "@smui/list@^6.0.0-beta.15":
   version "6.0.0-beta.15"
@@ -3597,6 +3597,14 @@ svelte2tsx@^0.4.14:
   version "0.4.14"
   resolved "https://registry.yarnpkg.com/svelte2tsx/-/svelte2tsx-0.4.14.tgz#6c3d65eee8d00d6de2c061e836c6bb4f0c6c43b8"
   integrity sha512-udF0Z/DA98OfjPFBU1GBJRpYHEvsxA8ozwYVN08AOWMnQyxoSyWWlYspiq2m9xAjLo/pWnhec9z1d6jc9umqjA==
+  dependencies:
+    dedent-js "^1.0.1"
+    pascal-case "^3.1.1"
+
+svelte2tsx@^0.5.5:
+  version "0.5.8"
+  resolved "https://registry.yarnpkg.com/svelte2tsx/-/svelte2tsx-0.5.8.tgz#a946920d8c192b29664db61ed290722f65cb60a4"
+  integrity sha512-z5Mfpmy/jkpFIiePAocgWxGRJg+Ka0zlxyvFlpP2X1BoQuXjFC6pnIR9CGebOTmi+W1JnSUAdxrCCj/sEMXZ8Q==
   dependencies:
     dedent-js "^1.0.1"
     pascal-case "^3.1.1"

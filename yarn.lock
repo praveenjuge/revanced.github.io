@@ -812,19 +812,19 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@smui/button@^6.0.0-beta.15":
-  version "6.0.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@smui/button/-/button-6.0.0-beta.15.tgz#2efc44ca58815221f8ed70d561163862b6ef4ab3"
-  integrity sha512-0byc0VyBh5xXLHX8nR9R9/16uaMiNxCkHhm9fcz7Mq761qjxIt34AK8jlDOQQfLCP3/0PLNJjGk2+r+WtTaazA==
+"@smui/button@^6.0.0-beta.16":
+  version "6.0.0-beta.16"
+  resolved "https://registry.yarnpkg.com/@smui/button/-/button-6.0.0-beta.16.tgz#5681c0be6a15a9e1773a9e760675340101a47e7d"
+  integrity sha512-+sBnqo8PlbvV7R3sHUOu+/y2xqiDwcpjLkW7BVvbK0r3Rit87yKCb5Octa0DnnTmNh9W6bHGe162v760drcSfw==
   dependencies:
     "@material/button" "^13.0.0"
     "@material/elevation" "^13.0.0"
     "@material/feature-targeting" "^13.0.0"
     "@material/ripple" "^13.0.0"
     "@material/theme" "^13.0.0"
-    "@smui/common" "^6.0.0-beta.15"
-    "@smui/ripple" "^6.0.0-beta.15"
-    svelte2tsx "^0.4.14"
+    "@smui/common" "^6.0.0-beta.16"
+    "@smui/ripple" "^6.0.0-beta.16"
+    svelte2tsx "^0.5.5"
 
 "@smui/circular-progress@^6.0.0-beta.15":
   version "6.0.0-beta.15"
@@ -835,14 +835,14 @@
     "@smui/common" "^6.0.0-beta.15"
     svelte2tsx "^0.4.14"
 
-"@smui/common@^6.0.0-beta.15":
-  version "6.0.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@smui/common/-/common-6.0.0-beta.15.tgz#b484d833c1c63a7a8edf0d34eb0219ad772cbc7a"
-  integrity sha512-FzSKNFxC6IPhyu8YVh1GKHUddPchuvW3spYV59cEZfJHiQwG9NMEjfcCN546QMNXC9qdkrkL8XjOnW7uYZVdnQ==
+"@smui/common@^6.0.0-beta.15", "@smui/common@^6.0.0-beta.16":
+  version "6.0.0-beta.16"
+  resolved "https://registry.yarnpkg.com/@smui/common/-/common-6.0.0-beta.16.tgz#ec761c295a1e503df0c7e4b7cb5b33847dc22055"
+  integrity sha512-Ual6505AOP75T+IneOQ6e1tnlhDflJX+yxa9T8Hx5X00MOiULvWACg/RW3c8UEQAc96YnEsA3utv5qDy8tZpmg==
   dependencies:
     "@material/dom" "^13.0.0"
     "@tsconfig/svelte" "^3.0.0"
-    svelte2tsx "^0.4.14"
+    svelte2tsx "^0.5.5"
 
 "@smui/drawer@^6.0.0-beta.15":
   version "6.0.0-beta.15"
@@ -866,15 +866,15 @@
     "@smui/ripple" "^6.0.0-beta.15"
     svelte2tsx "^0.4.14"
 
-"@smui/ripple@^6.0.0-beta.15":
-  version "6.0.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@smui/ripple/-/ripple-6.0.0-beta.15.tgz#ecc75b982a7b444d69985da7640b974f0361d591"
-  integrity sha512-f8SUeI8M7vrSGP9wLWq5KP6HsPBElqWoI5jDm6hcIQr0Q9xFRkPn64J4Cfph3EcSNbLGFGO5BLBbaw2lr89plw==
+"@smui/ripple@^6.0.0-beta.15", "@smui/ripple@^6.0.0-beta.16":
+  version "6.0.0-beta.16"
+  resolved "https://registry.yarnpkg.com/@smui/ripple/-/ripple-6.0.0-beta.16.tgz#b5a875165e51703e41e725b7f4cccc3f6106675b"
+  integrity sha512-9vlsFn8ZL0tpWKHmDfZPPzQzdusLNZaA3CzpJKnnMIWvlUZVixR780iHa1YXg0cEEQ2lPlSK4CFJEdiGMFRAow==
   dependencies:
     "@material/dom" "^13.0.0"
     "@material/ripple" "^13.0.0"
-    "@smui/common" "^6.0.0-beta.15"
-    svelte2tsx "^0.4.14"
+    "@smui/common" "^6.0.0-beta.16"
+    svelte2tsx "^0.5.5"
 
 "@smui/tab-bar@^6.0.0-beta.15":
   version "6.0.0-beta.15"
@@ -3597,6 +3597,14 @@ svelte2tsx@^0.4.14:
   version "0.4.14"
   resolved "https://registry.yarnpkg.com/svelte2tsx/-/svelte2tsx-0.4.14.tgz#6c3d65eee8d00d6de2c061e836c6bb4f0c6c43b8"
   integrity sha512-udF0Z/DA98OfjPFBU1GBJRpYHEvsxA8ozwYVN08AOWMnQyxoSyWWlYspiq2m9xAjLo/pWnhec9z1d6jc9umqjA==
+  dependencies:
+    dedent-js "^1.0.1"
+    pascal-case "^3.1.1"
+
+svelte2tsx@^0.5.5:
+  version "0.5.8"
+  resolved "https://registry.yarnpkg.com/svelte2tsx/-/svelte2tsx-0.5.8.tgz#a946920d8c192b29664db61ed290722f65cb60a4"
+  integrity sha512-z5Mfpmy/jkpFIiePAocgWxGRJg+Ka0zlxyvFlpP2X1BoQuXjFC6pnIR9CGebOTmi+W1JnSUAdxrCCj/sEMXZ8Q==
   dependencies:
     dedent-js "^1.0.1"
     pascal-case "^3.1.1"

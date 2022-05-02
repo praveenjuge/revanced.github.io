@@ -927,36 +927,36 @@
   resolved "https://registry.yarnpkg.com/@steeze-ui/svelte-icon/-/svelte-icon-1.3.1.tgz#5bdf97f198c669933082f057156cbf2165fc60ae"
   integrity sha512-RYJ0BSjoEHB2XsY10qZzRgCxBYtR+WFKf+tk6JLJgLbH68TnTTWamkt7uYsEUY80gDlDvQcJNuDsi40W6ygBvw==
 
-"@sveltejs/adapter-auto@^1.0.0-next.38":
-  version "1.0.0-next.38"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-auto/-/adapter-auto-1.0.0-next.38.tgz#e497947c8920fe6971da5871142043e2a2358ebd"
-  integrity sha512-1//aiV/Wzebj+j5X8VLRs0vJUT3andc/0+IRQwy5ykOwjpNo5/Mj2RX8SA+t5nxBFYyJJf2kj6sszKA8LjRAQQ==
+"@sveltejs/adapter-auto@^1.0.0-next.40":
+  version "1.0.0-next.40"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-auto/-/adapter-auto-1.0.0-next.40.tgz#06dd8a02cd465b536b540a056f269feb33712677"
+  integrity sha512-TT6YJUF3asJ/2RbviEpcDJQ/TixPcvmH0L2266fGNT7+KfAf9wbbVdegPWRODk2E2hTN0X+h5YS9l+lap+BK9w==
   dependencies:
-    "@sveltejs/adapter-cloudflare" "1.0.0-next.18"
-    "@sveltejs/adapter-netlify" "1.0.0-next.55"
-    "@sveltejs/adapter-vercel" "1.0.0-next.49"
+    "@sveltejs/adapter-cloudflare" "1.0.0-next.19"
+    "@sveltejs/adapter-netlify" "1.0.0-next.56"
+    "@sveltejs/adapter-vercel" "1.0.0-next.50"
 
-"@sveltejs/adapter-cloudflare@1.0.0-next.18":
-  version "1.0.0-next.18"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-cloudflare/-/adapter-cloudflare-1.0.0-next.18.tgz#f908afddb8873dbbb60141c556bfa56a96ae9d00"
-  integrity sha512-iIb7ScN2hnnfVQPhRjw0FYpovYJrw4n22BFAQIg6QvOwmmGz1E3QkyBkm/tRmyY7emDfnljgXtvk4Hsoszp5Ug==
+"@sveltejs/adapter-cloudflare@1.0.0-next.19":
+  version "1.0.0-next.19"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-cloudflare/-/adapter-cloudflare-1.0.0-next.19.tgz#cd1fb749ee3252a87b89d03686a1279a9c5361e6"
+  integrity sha512-LET3DUYpl+deoKhkWCzhHUT7iipYkgVkOcRIJX7qT4m23A+MAbzcAC3npgwEYSe9RokOSWMVBr3tVujeES5EeA==
   dependencies:
     esbuild "^0.14.21"
-    worktop "0.8.0-next.12"
+    worktop "0.8.0-next.13"
 
-"@sveltejs/adapter-netlify@1.0.0-next.55":
-  version "1.0.0-next.55"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-netlify/-/adapter-netlify-1.0.0-next.55.tgz#67d54a79b20ed5ef0606a05e9928283feb151531"
-  integrity sha512-LbqupuX8SdvUdCLSLiazPdU+JwwVhWGmoAopwlFkdlGOsGEag6jB+CjEYPmy81SVMSKxtYA2RqNzBPpPbURDtw==
+"@sveltejs/adapter-netlify@1.0.0-next.56":
+  version "1.0.0-next.56"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-netlify/-/adapter-netlify-1.0.0-next.56.tgz#121397fbd0a7aea946cd7a513aca517fda825583"
+  integrity sha512-fM3aBHsr7syCGfIJcuB1mEoZwynqyOxVijvmyrd9OWHi6MP3bXSP+GhKDMtDpQRwejJJiwuZNTx2PUbV3uirvA==
   dependencies:
     "@iarna/toml" "^2.2.5"
     esbuild "^0.14.21"
     tiny-glob "^0.2.9"
 
-"@sveltejs/adapter-vercel@1.0.0-next.49":
-  version "1.0.0-next.49"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.49.tgz#500a09ac04ab58d9316f65d762192f1ef3301832"
-  integrity sha512-Me0Zb10iBv+ySVMc0XgI7rdzwiMmeVHq48iVv3oXORa/et/efJVEknVSVk22q15XRqys7DhoPirf54Mz4jElFQ==
+"@sveltejs/adapter-vercel@1.0.0-next.50":
+  version "1.0.0-next.50"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.50.tgz#840e05fac4515e3fcbf8375ec3e6d32581206bd1"
+  integrity sha512-yta0AkuWEr7qrm8LB34F4ZdCtMxj+cHD4huwrRYCgjv+PSJHLPwe7aH53+Mhrv6La0TgeyQ/f2lTyhBMXZXn9Q==
   dependencies:
     esbuild "^0.14.21"
 
@@ -3772,10 +3772,10 @@ word-wrap@^1.2.3:
   resolved "https://registry.yarnpkg.com/word-wrap/-/word-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c"
   integrity sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==
 
-worktop@0.8.0-next.12:
-  version "0.8.0-next.12"
-  resolved "https://registry.yarnpkg.com/worktop/-/worktop-0.8.0-next.12.tgz#66f835640397de3ef8a64a1a12574912aa9a4614"
-  integrity sha512-ZXdgI9XOf0uB4IegFoViLdQ0Bf7hish0XMHwuV3nopOXygfLJkwAC5+HyA+sihBMSM2sLLQ5uGnD5aknL8+NQg==
+worktop@0.8.0-next.13:
+  version "0.8.0-next.13"
+  resolved "https://registry.yarnpkg.com/worktop/-/worktop-0.8.0-next.13.tgz#4768fc61cab2c153c1f6372e7180d9d3f2fac07e"
+  integrity sha512-aLPWSneFtPJr3RAf841orF9GNlVdVkQd2Wj/BbcGHp3whBZoXx6dcwwClA9fezm7muNan4SuT+ZTyMWdoJSCAg==
   dependencies:
     mrmime "^1.0.0"
     regexparam "^2.0.0"

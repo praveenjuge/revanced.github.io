@@ -2253,10 +2253,10 @@ marked@^4.0.16:
   resolved "https://registry.yarnpkg.com/marked/-/marked-4.0.16.tgz#9ec18fc1a723032eb28666100344d9428cf7a264"
   integrity sha512-wahonIQ5Jnyatt2fn8KqF/nIqZM8mh3oRu2+l5EANGMhu6RFjiSG52QNE2eWzFMI94HqYSgN184NurgNG6CztA==
 
-mdsvex@^0.10.5:
-  version "0.10.5"
-  resolved "https://registry.yarnpkg.com/mdsvex/-/mdsvex-0.10.5.tgz#a8b905d2ff8fbff17fc3c8cfa8c4475ec6d8fb24"
-  integrity sha512-/B23WZn5Vjrjh7Qp2YsOXLkU9YFm59IEylKNXC10o05ZaCP4LNv32tGXKP6aEssss6hk/LdISJuneELHFIS2pQ==
+mdsvex@^0.10.6:
+  version "0.10.6"
+  resolved "https://registry.yarnpkg.com/mdsvex/-/mdsvex-0.10.6.tgz#5ba975f4616e5255ca31cd93d33e2c2a22845631"
+  integrity sha512-aGRDY0r5jx9+OOgFdyB9Xm3EBr9OUmcrTDPWLB7a7g8VPRxzPy4MOBmcVYgz7ErhAJ7bZ/coUoj6aHio3x/2mA==
   dependencies:
     "@types/unist" "^2.0.3"
     prism-svelte "^0.4.7"
